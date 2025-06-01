@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export const Header: React.FC = () => {
   return (
@@ -22,9 +23,9 @@ export const Header: React.FC = () => {
             <a href="#company" className="hover:text-gray-300 transition-colors">
               Company
             </a>
-            <a href="#careers" className="hover:text-gray-300 transition-colors">
+            <Link to="/careers" className="hover:text-gray-300 transition-colors">
               Careers
-            </a>
+            </Link>
           </nav>
           <button className="bg-[rgba(54,54,54,1)] flex items-center justify-center font-bold text-center px-4 py-2 rounded-[20px] hover:bg-[rgba(74,74,74,1)] transition-colors whitespace-nowrap">
             Reserve Early Access
