@@ -72,8 +72,8 @@ export const EmailSignup: React.FC<EmailSignupProps> = ({
         </div>
       )}
       {isSubmitted ? (
-        <div className="text-center p-4">
-          <p className="text-xl text-white">Thank you for your interest!</p>
+        <div className="flex items-center justify-center h-16 bg-neutral-800 rounded-xl border border-[rgba(77,77,77,1)] p-4">
+          <p className="text-xl text-neutral-400 text-center">Thank you for your interest!</p>
         </div>
       ) : (
         <form onSubmit={handleSubmit}>
