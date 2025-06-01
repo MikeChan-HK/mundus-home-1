@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
+import { Header } from '../../components/Header';
 import { JobListing } from '../../components/CareersPageComponents/JobListing';
 import { ValueCard } from '../../components/CareersPageComponents/ValueCard';
 import { ContactItem } from '../../components/CareersPageComponents/ContactItem';
+import { Footer } from '../../components/Footer';
 
 const Index: React.FC = () => {
   const [showReserveForm, setShowReserveForm] = useState(false);
@@ -67,12 +69,13 @@ const Index: React.FC = () => {
   return (
     <div className="bg-white">
       <div className="bg-[rgba(26,26,26,1)] min-h-[800px] w-full overflow-hidden max-md:max-w-full">
-        <div className="w-full max-md:max-w-full">
-          
-          <main className="flex w-full justify-center mt-[49px] pt-5 pb-[69px] px-40 max-md:max-w-full max-md:mt-10 max-md:px-5">
+        <Header />
+        <main>
+          <div className="flex w-full justify-center px-40 max-md:max-w-full max-md:px-5">
             <div className="min-w-60 w-full max-w-[960px] overflow-hidden flex-1 shrink basis-[0%] max-md:max-w-full">
+              {/* Main content starts here, including Hero, Job Listings, Why Mundus, Values, Contact */}
               {/* Hero Section */}
-              <section className="flex min-h-[130px] w-full gap-[12px_0px] justify-between flex-wrap pt-4 pb-[31px] px-4 max-md:max-w-full">
+              <section className="flex min-h-[130px] w-full gap-[12px_0px] justify-between flex-wrap pt-4 pb-[31px] px-4 max-md:max-w-full mt-[49px] max-md:mt-10">
                 <div className="min-w-72 w-[862px]">
                   <h1 className="w-full text-[64px] text-white font-bold whitespace-nowrap leading-none py-[5px] max-md:max-w-full max-md:text-[40px]">
                     Careers
@@ -134,15 +137,13 @@ const Index: React.FC = () => {
                   </div>
                 </div>
               </section>
-            </div>
-          </main>
 
-          {/* Contact Section */}
-          <section className="w-full max-w-[1279px] mt-[49px] max-md:max-w-full max-md:mt-10">
-            <h2 className="z-10 min-h-[60px] text-[22px] text-white font-bold leading-none pl-40 pr-4 pt-5 pb-3 max-md:max-w-full max-md:pl-5">
-              Other ways to get in touch
-            </h2>
-            <ContactItem
+              {/* Contact Section needs to be inside the main content div */}
+              <section className="w-full mt-[49px] max-md:max-w-full max-md:mt-10"> {/* Removed max-w-[1279px] as parent div handles width */}
+                <h2 className="z-10 min-h-[60px] text-[22px] text-white font-bold leading-none pt-5 pb-3 max-md:max-w-full"> {/* Removed pl-40 pr-4 as parent div handles padding */}
+                  Other ways to get in touch
+                </h2>
+                <ContactItem
               icon="https://cdn.builder.io/api/v1/image/assets/8dc629ae2a5d45d08901e6df864c4154/a2a69e26e8572e14586fb59e5dc6fa2bbbb7dcbf?placeholderIfAbsent=true"
               title="Email"
               description="contact@mundus.ai"
@@ -165,7 +166,11 @@ const Index: React.FC = () => {
               />
             </div>
           </section>
-
+          </div>
+          {/* End of main content div */}
+        </main>
+        <div className="flex w-full justify-center px-40 max-md:max-w-full max-md:px-5">
+          <Footer />
         </div>
       </div>
     </div>
