@@ -1,11 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export const CareersSection: React.FC = () => {
   return (
-    <section id="careers" className="min-w-60 w-full max-w-[960px] overflow-hidden flex-1 shrink basis-[0%] max-md:max-w-full">
-      <div className="flex w-full flex-col items-stretch text-white justify-center p-4 max-md:max-w-full">
-        <div className="flex flex-col relative min-h-[246px] w-full overflow-hidden pt-[157px] pb-[31px] px-6 rounded-xl max-md:max-w-full max-md:pt-[100px] max-md:px-5">
-          <img
+    <Link to="/careers" className="contents">
+      <section id="careers" className="min-w-60 w-full max-w-[960px] overflow-hidden flex-1 shrink basis-[0%] max-md:max-w-full">
+        <div className="flex w-full flex-col items-stretch text-white justify-center p-4 max-md:max-w-full">
+          <div className="flex flex-col relative min-h-[246px] w-full overflow-hidden pt-[157px] pb-[31px] px-6 rounded-xl max-md:max-w-full max-md:pt-[100px] max-md:px-5">
+            <img
             src="https://cdn.builder.io/api/v1/image/assets/8dc629ae2a5d45d08901e6df864c4154/c5efaa9bafa0d77c9c6a2c70910e96bacd7c34ff?placeholderIfAbsent=true"
             className="absolute h-full w-full object-cover inset-0"
             alt="Careers at Mundus"
@@ -23,5 +25,6 @@ export const CareersSection: React.FC = () => {
       </div>
       <div className="flex min-h-10 w-full max-md:max-w-full" />
     </section>
+    </Link>
   );
 };

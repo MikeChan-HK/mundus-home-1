@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
+import { Header } from '../../components/Header';
 import { JobListing } from '../../components/CareersPageComponents/JobListing';
 import { ValueCard } from '../../components/CareersPageComponents/ValueCard';
 import { ContactItem } from '../../components/CareersPageComponents/ContactItem';
+import { Footer } from '../../components/Footer';
 
 const Index: React.FC = () => {
   const [showReserveForm, setShowReserveForm] = useState(false);
@@ -67,6 +69,7 @@ const Index: React.FC = () => {
   return (
     <div className="bg-white">
       <div className="bg-[rgba(26,26,26,1)] min-h-[800px] w-full overflow-hidden max-md:max-w-full">
+        <Header />
         <div className="w-full max-md:max-w-full">
           
           <main className="flex w-full justify-center mt-[49px] pt-5 pb-[69px] px-40 max-md:max-w-full max-md:mt-10 max-md:px-5">
@@ -166,6 +169,9 @@ const Index: React.FC = () => {
             </div>
           </section>
 
+        </div>
+        <div className="flex w-full justify-center px-40 max-md:max-w-full max-md:px-5">
+          <Footer />
         </div>
       </div>
     </div>
