@@ -11,16 +11,18 @@ export const Header: React.FC = () => {
             <div className="flex min-h-4 w-4 flex-1" />
           </div>
           <div className="text-lg text-white font-bold whitespace-nowrap leading-none">
-            Mundus
+            <a href="/index.html">
+                Mundus
+            </a>
           </div>
         </div>
         
         <div className="flex items-center gap-8 text-sm text-white">
           <nav className="flex items-center gap-9 font-medium whitespace-nowrap">
-            <a href="#product" className="hover:text-gray-300 transition-colors">
+            <a href="/index.html#product" className="hover:text-gray-300 transition-colors">
               Product
             </a>
-            <a href="#company" className="hover:text-gray-300 transition-colors">
+            <a href="/index.html#company" className="hover:text-gray-300 transition-colors">
               Company
             </a>
             <Link to="/careers" className="hover:text-gray-300 transition-colors">
