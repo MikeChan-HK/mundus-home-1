@@ -7,7 +7,7 @@ export const AELMSection: React.FC = () => {
         AELM Framework
       </header>
       <div className="w-full text-base text-white font-normal leading-6 pt-1 pb-3 px-4 max-md:max-w-full">
-        AELM (Advanced Efficient Learning Model) is our flagship AI
+        AELM (Automatic Execution Language Model) Layer is our flagship AI
         framework. It's engineered to optimize resource utilization
         while maintaining high accuracy and adaptability. AELM is
         suitable for various AI tasks, from natural language processing
