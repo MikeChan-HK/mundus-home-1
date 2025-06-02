@@ -14,7 +14,7 @@ export const JobListing: React.FC<JobListingProps> = ({ title, department, locat
     setIsApplying(true);
     // Simulate application process
     setTimeout(() => {
-      alert(`Application submitted for ${title}!`);
+      alert(`Application submition is under maintenance. Please come back later!`);
       setIsApplying(false);
     }, 1000);
   };

@@ -21,10 +21,10 @@ export const Hero: React.FC = () => {
               />
               <div className="relative text-white max-md:max-w-full">
                 <h1 className="min-h-[60px] w-full text-5xl font-bold tracking-[-2px] leading-none max-md:max-w-full max-md:text-[40px]">
-                  The future of AI is here
+                  AI Infrastructure For Everyone
                 </h1>
                 <p className="w-full text-base font-normal leading-6 mt-2 max-md:max-w-full">
-                  Mundus is building the next generation of AI systems.
+                  Mundus is driven by the community.
                   <br />
                   Our framework, AELM, is designed to be more efficient,
                   scalable, and adaptable than existing solutions.
