@@ -24,7 +24,7 @@ const Index: React.FC = () => {
       type: "Unpaid (Project Participant → Partner)"
     },
     {
-      title: "Chief Research Scientist, AI Infrastructure",
+      title: "Chief Research Scientist, AI Architecture",
       department: "Research",
       location: "Remote",
       type: "Unpaid (Project Participant → Partner)"
@@ -48,10 +48,22 @@ const Index: React.FC = () => {
       type: "Unpaid (Project Participant → Partner)"
     },
     {
-      title: "Chief Product Manager, DreamAI Platform",
+      title: "Chief Product Manager, EarthBase Platform",
       department: "Product",
       location: "Remote",
-      type: "Unpaid (Partner → Co-Founder)"
+      type: "Unpaid (Project Participant → Partner)"
+    },
+    {
+      title: "Chief Product Manager, Today’s EQ Training",
+      department: "Product",
+      location: "Remote",
+      type: "Unpaid (Partner → Co-Founder of the game “Today’s EQ Training”)"
+    },
+    {
+      title: "Chief Marketing Lead",
+      department: "Marketing",
+      location: "Remote",
+      type: "Unpaid (Project Participant → Partner)"
     }
   ];
 
