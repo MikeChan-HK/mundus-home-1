@@ -22,7 +22,7 @@ export const FounderSection: React.FC = () => {
                 Founder & CEO
               </p>
               <address className="self-stretch w-full max-md:max-w-full not-italic">
-                Email: mikemike2007103@gmail.com | Twitter: MikeChan_HK
+                Email: mikemike2007103@gmail.com | Twitter: mikechan_103
               </address>
             </div>
           </div>
