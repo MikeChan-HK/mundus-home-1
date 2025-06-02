@@ -7,20 +7,24 @@ export const Footer: React.FC = () => {
         <div className="flex w-full gap-4 justify-center flex-wrap max-md:max-w-full">
           <div className="flex flex-col items-center w-6">
             <div className="flex w-6 flex-col items-center flex-1">
-              <img
-                src="https://cdn.builder.io/api/v1/image/assets/8dc629ae2a5d45d08901e6df864c4154/07988e26b85ee5a76e16619b56b15780c9a72a0a?placeholderIfAbsent=true"
-                className="aspect-[1] object-contain w-full flex-1"
-                alt="Social media link"
-              />
+              <a href="https://www.x.com" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/8dc629ae2a5d45d08901e6df864c4154/07988e26b85ee5a76e16619b56b15780c9a72a0a?placeholderIfAbsent=true"
+                  className="aspect-[1] object-contain w-full flex-1"
+                  alt="Social media link"
+                />
+              </a>
             </div>
           </div>
           <div className="flex flex-col items-center w-6">
             <div className="flex w-6 flex-col items-center flex-1">
-              <img
-                src="https://cdn.builder.io/api/v1/image/assets/8dc629ae2a5d45d08901e6df864c4154/2a033813d461eb39a1bb85d85f51a724a7c432f8?placeholderIfAbsent=true"
-                className="aspect-[1] object-contain w-full flex-1"
-                alt="Social media link"
-              />
+              <a href="https://www.x.com" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/8dc629ae2a5d45d08901e6df864c4154/2a033813d461eb39a1bb85d85f51a724a7c432f8?placeholderIfAbsent=true"
+                  className="aspect-[1] object-contain w-full flex-1"
+                  alt="Social media link"
+                />
+              </a>
             </div>
           </div>
         </div>
