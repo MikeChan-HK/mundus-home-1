@@ -1,5 +1,6 @@
 import React from 'react';
 import { Header } from '@/components/Header';
+import { EmailSignup } from '../components/EmailSignup'; // Corrected path
 import { Hero } from '@/components/Hero';
 import { AboutSection } from '@/components/AboutSection';
 import { AELMSection } from '@/components/AELMSection';
@@ -13,7 +14,8 @@ const Index: React.FC = () => {
       <div className="bg-[rgba(26,26,26,1)] min-h-[2209px] w-full overflow-hidden max-md:max-w-full">
         <Header />
         
-        <main>
+        <main className="pt-16">
+          <EmailSignup className="mt-[3px]" />
           <Hero />
           
           <div className="flex w-full justify-center px-40 max-md:max-w-full max-md:px-5">
