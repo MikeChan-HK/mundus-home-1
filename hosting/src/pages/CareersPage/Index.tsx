@@ -70,9 +70,9 @@ const Index: React.FC = () => {
     <div className="bg-white">
       <div className="bg-[rgba(26,26,26,1)] min-h-[800px] w-full overflow-hidden max-md:max-w-full">
         <Header />
-        <div className="w-full max-md:max-w-full pt-16">
-          {/* The main tag below already has some pt-5, we might need to adjust this if visual issues occur */}
-          <main className="flex w-full justify-center pt-5 pb-[69px] px-40 max-md:max-w-full max-md:px-5"> {/* Removed mt-[49px] and max-md:mt-10 */}
+        <div className="w-full max-md:max-w-full">
+          
+          <main className="flex w-full justify-center mt-[49px] pt-5 pb-[69px] px-40 max-md:max-w-full max-md:mt-10 max-md:px-5">
             <div className="min-w-60 w-full max-w-[960px] overflow-hidden flex-1 shrink basis-[0%] max-md:max-w-full">
               {/* Hero Section */}
               <section className="flex min-h-[130px] w-full gap-[12px_0px] justify-between flex-wrap pt-4 pb-[31px] px-4 max-md:max-w-full">

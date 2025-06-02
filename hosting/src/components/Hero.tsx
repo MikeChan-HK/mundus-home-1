@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { EmailSignup } from './EmailSignup';
 
 export const Hero: React.FC = () => {
   const handleEmailSubmit = (email: string) => {
@@ -8,7 +9,7 @@ export const Hero: React.FC = () => {
   };
 
   return (
-    <section className="flex w-full justify-center pt-5 px-40 max-md:max-w-full max-md:px-5">
+    <section className="flex w-full justify-center mt-[60px] pt-5 px-40 max-md:max-w-full max-md:mt-8 max-md:px-5">
       <div className="min-w-60 w-full max-w-[1200px] overflow-hidden flex-1 shrink basis-[0%] max-md:max-w-full">
         <div className="min-h-[600px] w-full max-md:max-w-full">
           <div className="flex w-full flex-col items-stretch justify-center flex-1 p-4 max-md:max-w-full">
@@ -29,6 +30,10 @@ export const Hero: React.FC = () => {
                   scalable, and adaptable than existing solutions.
                 </p>
               </div>
+              <EmailSignup
+                onSubmit={handleEmailSubmit}
+                className="relative mt-[29px]"
+              />
             </div>
           </div>
         </div>
