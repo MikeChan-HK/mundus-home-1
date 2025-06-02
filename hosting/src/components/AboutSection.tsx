@@ -2,7 +2,7 @@ import React from 'react';
 
 export const AboutSection: React.FC = () => {
   return (
-    <section id="company" className="min-w-60 w-full max-w-[960px] overflow-hidden flex-1 shrink basis-[0%] max-md:max-w-full">
+    <section id="community" className="min-w-60 w-full max-w-[960px] overflow-hidden flex-1 shrink basis-[0%] max-md:max-w-full">
       <header className="min-h-[60px] w-full text-[22px] text-white font-bold leading-none pt-5 pb-3 px-4 max-md:max-w-full">
         About Mundus
       </header>

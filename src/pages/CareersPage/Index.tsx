@@ -86,7 +86,7 @@ const Index: React.FC = () => {
     {
       icon: "https://cdn.builder.io/api/v1/image/assets/8dc629ae2a5d45d08901e6df864c4154/2b0ab0b91e6b526da3e6ecb6bcf8d0ec6a1349eb?placeholderIfAbsent=true",
       title: "Innovation focus",
-      description: "Be part of a company that's always pushing the boundaries of what's possible."
+      description: "Be part of a community that's always pushing the boundaries of what's possible."
     }
   ];
 
