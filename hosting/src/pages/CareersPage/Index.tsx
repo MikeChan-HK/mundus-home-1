@@ -108,6 +108,8 @@ const Index: React.FC = () => {
                     Join us in building the future of AI.
                     <br />
                     We're looking for talented individuals to help us shape the next generation of AI technology.
+                    <br />
+                    We are a group of AI enthusiasts. We believe in your ability, not your age (Teens are welcome to join).
                   </p>
                 </div>
               </section>
@@ -134,7 +136,7 @@ const Index: React.FC = () => {
                   Why Mundus?
                 </h2>
                 <p className="w-full text-base text-white font-normal leading-6 pt-1 pb-3 px-4 max-md:max-w-full">
-                  At Mundus, we're not just building AI; we're building a community of innovators. We offer competitive salaries, comprehensive benefits, and a culture that values collaboration, creativity, and continuous learning. Join us and be part of a team that's making a real impact on the world.
+                  At Mundus, we're not just building AI; we're building a community of innovators. We offers a culture that values collaboration, creativity, and continuous learning. Join us and be part of a team that's making a real impact on the world.
                 </p>
               </section>
 
@@ -167,7 +169,7 @@ const Index: React.FC = () => {
           {/* Contact Section */}
           <section className="w-full max-w-[1279px] mt-[49px] max-md:max-w-full max-md:mt-10">
             <h2 className="z-10 min-h-[60px] text-[22px] text-white font-bold leading-none pl-40 pr-4 pt-5 pb-3 max-md:max-w-full max-md:pl-5">
-              Other ways to get in touch
+              Ways to get in touch
             </h2>
             <ContactItem
               icon="https://cdn.builder.io/api/v1/image/assets/8dc629ae2a5d45d08901e6df864c4154/a2a69e26e8572e14586fb59e5dc6fa2bbbb7dcbf?placeholderIfAbsent=true"
