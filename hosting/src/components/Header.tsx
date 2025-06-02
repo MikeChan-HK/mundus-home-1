@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export const Header: React.FC = () => {
   return (
-    <header className="w-full max-md:max-w-full">
+    <header className="fixed top-0 left-0 z-50 w-full max-md:max-w-full">
       <nav className="flex w-full items-center justify-between px-10 py-3 border-[rgba(229,232,235,1)] border-b max-md:max-w-full max-md:px-5">
         <div className="flex items-center gap-4">
           <div className="w-4 h-4">
@@ -29,9 +29,9 @@ export const Header: React.FC = () => {
               Careers
             </Link>
           </nav>
-          <button className="bg-[rgba(54,54,54,1)] flex items-center justify-center font-bold text-center px-4 py-2 rounded-[20px] hover:bg-[rgba(74,74,74,1)] transition-colors whitespace-nowrap">
+          <a href="/index.html" className="bg-[rgba(54,54,54,1)] flex items-center justify-center font-bold text-center px-4 py-2 rounded-[20px] hover:bg-[rgba(74,74,74,1)] transition-colors whitespace-nowrap">
             Reserve Early Access
-          </button>
+          </a>
         </div>
       </nav>
     </header>
