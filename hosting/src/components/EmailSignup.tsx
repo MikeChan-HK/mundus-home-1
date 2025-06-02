@@ -64,7 +64,7 @@ export const EmailSignup: React.FC<EmailSignupProps> = ({
   };
 
   return (
-    <div className={`relative w-full px-[5px] ${className}`}>
+    <div className={`relative w-full max-w-[480px] ${className}`}>
       {submitError && (
         <div className="text-red-500 text-center p-2">
           {submitError}
