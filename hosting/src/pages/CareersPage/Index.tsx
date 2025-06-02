@@ -30,7 +30,7 @@ const Index: React.FC = () => {
       type: "Unpaid (Project Participant → Partner)"
     },
     {
-      title: "Chief Product Manager, AELM-Playground",
+      title: "Chief Product Manager, AELM Playground",
       department: "Product",
       location: "Remote",
       type: "Unpaid (Project Participant → Partner)"
@@ -40,6 +40,18 @@ const Index: React.FC = () => {
       department: "Operations",
       location: "Remote",
       type: "Unpaid (Project Participant → Partner)"
+    },
+    {
+      title: "Chief UI Designer",
+      department: "Design",
+      location: "Remote",
+      type: "Unpaid (Project Participant → Partner)"
+    },
+    {
+      title: "Chief Product Manager, DreamAI Platform",
+      department: "Product",
+      location: "Remote",
+      type: "Unpaid (Partner → Co-Founder)"
     }
   ];
 
