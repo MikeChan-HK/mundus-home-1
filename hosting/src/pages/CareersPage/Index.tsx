@@ -148,8 +148,8 @@ const Index: React.FC = () => {
             <ContactItem
               icon="https://cdn.builder.io/api/v1/image/assets/8dc629ae2a5d45d08901e6df864c4154/a2a69e26e8572e14586fb59e5dc6fa2bbbb7dcbf?placeholderIfAbsent=true"
               title="Email"
-              description="contact@mundus.ai"
-              href="mailto:contact@mundus.ai"
+              description="mundus.tech.ai@gmail.com"
+              href="mailto:mundus.tech.ai@gmail.com"
             />
             <div className="z-10 -mt-1">
               <ContactItem
