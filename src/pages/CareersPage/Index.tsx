@@ -156,7 +156,7 @@ const Index: React.FC = () => {
                 icon="https://cdn.builder.io/api/v1/image/assets/8dc629ae2a5d45d08901e6df864c4154/71339b6cefc6ee3d8e3f360fd02e1fa649db5806?placeholderIfAbsent=true"
                 title="X"
                 description="Follow us on X"
-                href="https://x.com/mundusai"
+                href="https://x.com/mundus_ai"
               />
             </div>
             <div className="z-10 -mt-1.5">
@@ -164,7 +164,7 @@ const Index: React.FC = () => {
                 icon="https://cdn.builder.io/api/v1/image/assets/8dc629ae2a5d45d08901e6df864c4154/23db9353305f9634f3d623df5811a9e8547cc032?placeholderIfAbsent=true"
                 title="Discord"
                 description="Join our community on Discord"
-                href="https://discord.gg/mundusai"
+                href="https://discord.gg/mundus_ai"
               />
             </div>
           </section>
